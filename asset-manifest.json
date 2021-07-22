@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.eae5cff2.chunk.css",
-    "main.js": "/static/js/main.c9620622.chunk.js",
-    "main.js.map": "/static/js/main.c9620622.chunk.js.map",
+    "main.css": "/static/css/main.a41f678c.chunk.css",
+    "main.js": "/static/js/main.eb6055b3.chunk.js",
+    "main.js.map": "/static/js/main.eb6055b3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8edaf557.js",
     "runtime-main.js.map": "/static/js/runtime-main.8edaf557.js.map",
     "static/js/2.3556d742.chunk.js": "/static/js/2.3556d742.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.3b79ea31.chunk.js": "/static/js/3.3b79ea31.chunk.js",
     "static/js/3.3b79ea31.chunk.js.map": "/static/js/3.3b79ea31.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.eae5cff2.chunk.css.map": "/static/css/main.eae5cff2.chunk.css.map",
+    "static/css/main.a41f678c.chunk.css.map": "/static/css/main.a41f678c.chunk.css.map",
     "static/js/2.3556d742.chunk.js.LICENSE.txt": "/static/js/2.3556d742.chunk.js.LICENSE.txt",
     "static/media/memoji.5a14e4c7.png": "/static/media/memoji.5a14e4c7.png",
     "static/media/profile.2a48467f.jpeg": "/static/media/profile.2a48467f.jpeg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.8edaf557.js",
     "static/js/2.3556d742.chunk.js",
-    "static/css/main.eae5cff2.chunk.css",
-    "static/js/main.c9620622.chunk.js"
+    "static/css/main.a41f678c.chunk.css",
+    "static/js/main.eb6055b3.chunk.js"
   ]
 }
