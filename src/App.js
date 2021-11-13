@@ -15,22 +15,24 @@ import { DevlogPage } from "./components/pages/devlog-page/devlog-page.component
 import "./App.css";
 
 const App = () => (
-  <Router>
-    <Fragment>
-      <Navbar />
-      <Route exact path="/" component={Home} />
-      <About />
-      <Skills />
-      <Projects />
-      <Routes>
+  // <Router>
+  <Fragment>
+    <Navbar />
+    {/* <Route exact path="/" component={Home} /> */}
+    <Home />
+    <About />
+    <Skills />
+    <Projects />
+    {/* <Routes>
         <Route exact path="/devlog" component={DevlogPage} />
-      </Routes>
+      </Routes> */}
+    <Devlog />
 
-      <Contact />
-      <Footer />
-      <FixedItem />
-    </Fragment>
-  </Router>
+    <Contact />
+    <Footer />
+    <FixedItem />
+  </Fragment>
+  // </Router>
 );
 
 export default App;
