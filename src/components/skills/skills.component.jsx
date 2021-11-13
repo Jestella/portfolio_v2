@@ -17,7 +17,7 @@ import SectionTitle from "../section-title/section-title.component";
 function Skills() {
   return (
     <div className="skills">
-      <SectionTitle>skills</SectionTitle>
+      <SectionTitle>skills .</SectionTitle>
       <div className="skills_container">
         <ul>
           <li>
