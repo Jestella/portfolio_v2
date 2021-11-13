@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./header.styles.scss";
+import "./navbar.styles.scss";
 
 const scrollToTop = () => {
   window.scrollTo({
@@ -9,7 +9,7 @@ const scrollToTop = () => {
   });
 };
 
-function Header() {
+export default function Navbar() {
   return (
     <div className="header">
       <nav className="nav">
@@ -23,5 +23,3 @@ function Header() {
     </div>
   );
 }
-
-export default Header;

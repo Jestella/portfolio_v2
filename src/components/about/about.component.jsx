@@ -24,7 +24,7 @@ class About extends React.Component {
   render() {
     return (
       <div className="about">
-        <SectionTitle>about</SectionTitle>
+        <SectionTitle>about .</SectionTitle>
         <div className="about_container">
           <h1>
             Hello, I'm Stella!&nbsp;
