@@ -1,10 +1,12 @@
-import React from "react";
-import { FaRegFolder, FaRegFolderOpen } from "react-icons/fa";
-import memoji from "../../assets/memoji.png";
-import SectionTitle from "../section-title/section-title.component";
-import resume from "../../assets/stellalee_CV.pdf";
+import React from 'react';
+import SectionTitle from '../section-title/section-title.component';
+import Button from '../button/button.component';
 
-import "./about.styles.scss";
+import { FaRegFolder, FaRegFolderOpen } from 'react-icons/fa';
+import memoji from '../../assets/memoji.png';
+import resume from '../../assets/stellalee_CV.pdf';
+
+import './About.styles.scss';
 
 class About extends React.Component {
   constructor() {
@@ -23,12 +25,12 @@ class About extends React.Component {
 
   render() {
     return (
-      <div className="about">
-        <SectionTitle>about .</SectionTitle>
-        <div className="about_container">
+      <div className='about'>
+        <SectionTitle>about</SectionTitle>
+        <div className='about_container'>
           <h1>
             Hello, I'm Stella!&nbsp;
-            <img src={memoji} className="Memoji" />
+            <img src={memoji} className='Memoji' />
           </h1>
           <p>
             I am a self-taught front end web developer,
@@ -51,12 +53,12 @@ class About extends React.Component {
           </p>
 
           <button onMouseEnter={this.mouseEnter} onMouseLeave={this.mouseLeave}>
-            <a href={resume} target="_blank">
+            <a href={resume} target='_blank'>
               RESUME &nbsp;
               {this.state.isMouseInside ? (
-                <FaRegFolderOpen className="folder_open" />
+                <FaRegFolderOpen className='folder_open' />
               ) : (
-                <FaRegFolder className="folder" />
+                <FaRegFolder className='folder' />
               )}
             </a>
           </button>
