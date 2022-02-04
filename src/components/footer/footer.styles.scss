@@ -1,9 +1,16 @@
 .footer {
-  height: 50px;
+  height: 260px;
 }
 
 .footer_container {
   text-align: center;
   font-size: 15px;
-  color: lightgray;
+
+  h2 {
+    padding-top: 30px;
+  }
+}
+
+.copyright {
+  padding-top: 10px;
 }

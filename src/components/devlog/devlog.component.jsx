@@ -1,22 +1,21 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import Button from "../button/button.component";
-import SectionTitle from "../section-title/section-title.component";
+import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 
-import "./devlog.styles.scss";
+import Button from '../button/button.component';
 
-export default function Devlog() {
+import './Devlog.styles.scss';
+
+const Devlog = () => {
   return (
-    <div className="devlog">
-      <SectionTitle>devlog</SectionTitle>
-      <div className="devlog_container">
-        <h2>Coming Soon...⚠️</h2>
-        <p>What I learned & built this month.</p>
-        {/* <Link to="/devlog" className="btn"> */}
-        <Button> Click Here</Button>
-
-        {/* </Link> */}
+    <Fragment>
+      <div className='test'>
+        <h1>Devlog page</h1>
+        <Link to='/' className='btn'>
+          <Button>back to home</Button>
+        </Link>
       </div>
-    </div>
+    </Fragment>
   );
-}
+};
+
+export default Devlog;

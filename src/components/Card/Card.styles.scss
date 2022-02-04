@@ -1,0 +1,88 @@
+// .cards {
+//   display: flex;
+//   flex-wrap: wrap;
+//   background-color: gray;
+//   width: 100%;
+
+//   .card-image-box {
+//     display: flex;
+//     padding: 10px;
+//     width: 400px;
+//     height: 260px;
+//     background-color: peru;
+//     border: 5px red;
+
+//     img {
+//       width: 100%;
+//       background-color: yellowgreen;
+
+//       &:hover {
+//         opacity: 0.5;
+//         transition: 0.2s ease-in-out;
+//       }
+//     }
+//   }
+// }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: peru;
+}
+
+.card {
+  background-color: gray;
+  margin: 20px 0;
+  text-align: center;
+
+  img {
+    max-width: 400px;
+    height: 260px;
+
+    &:hover {
+      opacity: 0.7;
+      transition: 0.2s ease-in-out;
+    }
+  }
+
+  .card-text {
+    width: 400px;
+    height: 130px;
+  }
+
+  .card-project-name {
+    font-size: 16px;
+  }
+
+  .card-project-subname {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  @media screen and (max-width: 1373px) {
+    img {
+      width: 580px;
+      height: 300px;
+    }
+
+    .card-text {
+      width: 500px;
+    }
+  }
+
+  @media screen and (max-width: 799px) {
+    padding: 0 0 50px;
+    margin: 0;
+
+    img {
+      width: 400px;
+      height: 260px;
+    }
+
+    .card-text {
+      width: 400px;
+    }
+  }
+}

@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
-import "./section-title.styles.scss";
+import './section-title.styles.scss';
 
 function SectionTitle(props) {
   return (
-    <div className="section_title_container">
-      <h2 className="section_title">{props.children}</h2>
-      <hr className="underline" />
+    <div className='section_title_container'>
+      <h2 className='section_title'>{props.children}</h2>
+      {/* <hr className="underline" /> */}
     </div>
   );
 }
