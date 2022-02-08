@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './button.styles.scss';
+import './Button.styles.scss';
 
 function Button(props) {
   return <button className='button'>{props.children}</button>;

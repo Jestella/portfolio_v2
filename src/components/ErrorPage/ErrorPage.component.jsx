@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Button from '../button/button.component';
+import Button from '../Button/Button.component';
 
 import './ErrorPage.styles.scss';
 

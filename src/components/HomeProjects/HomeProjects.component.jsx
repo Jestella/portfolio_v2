@@ -1,30 +1,32 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 
-import SectionTitle from '../section-title/section-title.component';
-import Button from '../button/button.component';
-import Card from '../Card/Card.component';
+import SectionTitle from '../SectionTitle/SectionTitle.component';
+import Button from '../Button/Button.component';
+import HomeProjectItem from '../HomeProjectItems/HomeProjectItems.component';
 
 import './HomeProjects.styles.scss';
 
-function HomeProjects() {
+function HomeProject() {
   return (
     <Fragment>
       <div className='projects'>
         <SectionTitle>project</SectionTitle>
 
         <div className='projects-container'>
-          <p>These are my recent projects.</p>
-          <br />
-          <Card />
+          <p>
+            These are my recent projects. &nbsp;
+            <Link to='/portfolio' className='btn'>
+              <Button>View More</Button>
+            </Link>
+          </p>
 
-          <Link to='/portfolio' className='btn'>
-            <Button>View</Button>
-          </Link>
+          <br />
+          <HomeProjectItem />
         </div>
       </div>
     </Fragment>
   );
 }
 
-export default HomeProjects;
+export default HomeProject;

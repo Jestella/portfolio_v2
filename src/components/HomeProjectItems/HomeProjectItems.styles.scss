@@ -1,38 +1,10 @@
-// .cards {
-//   display: flex;
-//   flex-wrap: wrap;
-//   background-color: gray;
-//   width: 100%;
-
-//   .card-image-box {
-//     display: flex;
-//     padding: 10px;
-//     width: 400px;
-//     height: 260px;
-//     background-color: peru;
-//     border: 5px red;
-
-//     img {
-//       width: 100%;
-//       background-color: yellowgreen;
-
-//       &:hover {
-//         opacity: 0.5;
-//         transition: 0.2s ease-in-out;
-//       }
-//     }
-//   }
-// }
-
 .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background-color: peru;
 }
 
 .card {
-  background-color: gray;
   margin: 20px 0;
   text-align: center;
 
@@ -48,11 +20,12 @@
 
   .card-text {
     width: 400px;
-    height: 130px;
+    height: 90px;
   }
 
   .card-project-name {
     font-size: 16px;
+    margin: 0;
   }
 
   .card-project-subname {
@@ -61,9 +34,13 @@
     margin: 0;
   }
 
+  .custom-button {
+    margin: 0;
+  }
+
   @media screen and (max-width: 1373px) {
     img {
-      width: 580px;
+      width: 600px;
       height: 300px;
     }
 

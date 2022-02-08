@@ -28,7 +28,7 @@ export const ProjectData = [
   },
   {
     id: 3,
-    projectName: 'You can work with Stella / 2021',
+    projectName: 'Quiz / 2021',
     subName: 'Get-to-Know-Her Quiz built with React',
     technologies: 'React, TypeScript',
     imageUrl:

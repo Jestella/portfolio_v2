@@ -4,9 +4,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar.component';
 import Footer from './components/Footer/Footer.component';
 import Home from './components/Home/Home.component';
-import HomeAbout from './components/HomeAbout/HomeAbout.component';
-import HomeProjects from './components/HomeProjects/HomeProjects.component';
-import HomeDevlog from './components/HomeDevlog/HomeDevlog';
 import FixedItem from './components/FixedItem/FixedItem.component';
 import About from './components/About/About.component';
 import Portfolio from './components/Portfolio/Portfolio.component';
@@ -26,10 +23,6 @@ const App = () => {
         <Route exact path='/devlog' element={<Devlog />} />
         <Route exact path='*' element={<ErrorPage />} />
       </Routes>
-      {/* <Home /> */}
-      {/* <HomeAbout /> */}
-      {/* <HomeProjects /> */}
-      {/* <HomeDevlog /> */}
       <Footer />
       <FixedItem />
     </BrowserRouter>

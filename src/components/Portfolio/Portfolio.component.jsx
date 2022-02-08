@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import ProjectItem from '../ProjectItem/ProjectItem.component';
+import ProjectItems from '../ProjectItems/ProjectItems.component';
 
 import './Portfolio.styles.scss';
 
@@ -7,8 +7,7 @@ const Portfolio = () => {
   return (
     <Fragment>
       <div className='portfolio-page'>
-        <h1>Portfolio</h1>
-        <ProjectItem />
+        <ProjectItems />
       </div>
     </Fragment>
   );

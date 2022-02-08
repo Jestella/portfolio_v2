@@ -1,12 +1,12 @@
 import React from 'react';
-import Button from '../button/button.component';
+import Button from '../Button/Button.component';
 
 import { ProjectData } from './ProjectData';
 
-import './ProjectItem.styles.scss';
+import './ProjectItems.styles.scss';
 
-const ProjectItem = () => {
-  return ProjectData.map((item, index) => {
+const ProjectItems = () => {
+  return ProjectData.map((item) => {
     return (
       <div className='project_item'>
         <div key={item.id}>
@@ -40,4 +40,4 @@ const ProjectItem = () => {
   });
 };
 
-export default ProjectItem;
+export default ProjectItems;
